@@ -1,0 +1,201 @@
+.header-wrap {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 0;
+}
+
+.nav-item {
+  margin-left: 36px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 12px;
+  border-top: 5px solid #e8ebf1;
+}
+.header {
+  background-color: #e8ebf1;
+}
+.nav-item:hover {
+  cursor: pointer;
+  background-color: white;
+  border-top: 5px solid #2aacc8;
+  transition: 0.3s ease;
+}
+.link-menu:hover {
+  color: #2aacc8;
+}
+.item:hover {
+  cursor: pointer;
+  color: #2aacc8;
+}
+.submenu {
+  display: none;
+  background-color: white;
+}
+.submenu > .ulsubmenu {
+  position: absolute;
+}
+.ulsubmenu {
+  background-color: white;
+  z-index: 100;
+  width: 200px;
+  border-bottom: 5px solid #2aacc8;
+  left: 0;
+}
+
+.drop {
+  position: relative;
+}
+.drop:hover .submenu {
+  display: block;
+}
+
+.ulsubmenu > li {
+  padding: 10px 0 16px 10px;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin-top: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.item:hover a {
+  color: #2aacc8;
+}
+
+.bg {
+  background-color: #81e4ed;
+  width: 100%;
+}
+
+.container1 {
+  background-color: #e05936;
+  max-width: 1000px;
+  margin: auto;
+}
+.content1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  display: inline-block;
+  font-family: "Roboto" sans-serif;
+  color: white;
+  font-size: 50px;
+  line-height: 59px;
+  margin-left: 61px;
+}
+
+.bg1 {
+  background-color: #e8ebf1;
+  width: 100%;
+}
+.container2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.description1 {
+  max-width: 23%;
+}
+.title2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 67px;
+  margin-bottom: 31px;
+}
+.title2::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #2aacc8;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 19px;
+}
+.title2::after {
+  content: url(../assets/img/icons/pen.png);
+  position: absolute;
+  left: 11px;
+  bottom: 2px;
+}
+.link {
+  color: #2aacc8;
+  size: 13px;
+  position: relative;
+  display: flex;
+  padding-left: 18px;
+  margin-bottom: 46px;
+}
+.link::before {
+  content: "";
+  width: 5px;
+  height: 7px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 2px;
+  bottom: 5px;
+}
+.txt-description1 {
+  font-size: 13px;
+  list-style: 16px;
+}
+.bg2 {
+  background-color: white;
+  width: 100%;
+}
+.container3 {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.txt-h3 {
+  margin-left: 40px;
+}
+
+.container-pics {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #dfe1e5;
+  border-top: 1px solid #dfe1e5;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.bg3 {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.block1,
+.block2 {
+  width: 50%;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.logo-div {
+  width: 33%;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
