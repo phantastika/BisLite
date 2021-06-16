@@ -28,3 +28,7 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
 }
+p {
+  font-size: 14px;
+  line-height: 16px;
+}

@@ -163,6 +163,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .txt-h3 {
   margin-left: 40px;
@@ -179,13 +180,16 @@
   padding-top: 20px;
   padding-bottom: 30px;
 }
-.bg3 {
+.bg3,
+.bg4 {
   margin: 0 auto;
   max-width: 1000px;
 }
-.block1,
+.block1 {
+  width: 43%;
+}
 .block2 {
-  width: 50%;
+  width: 48%;
 }
 .logo {
   display: flex;
@@ -198,4 +202,84 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.txt-testimonial {
+  margin-bottom: 40px;
+}
+.icon-clients {
+  margin-right: 15px;
+}
+.testimonials,
+.clients {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.bg4 {
+  background-color: #e8fcfe;
+  border: 1px solid #81e4ed;
+  margin-top: 42px;
+}
+.container4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.txt-download {
+  width: 61%;
+  display: inline-block;
+  padding-left: 31px;
+  padding-top: 33px;
+  padding-bottom: 41px;
+}
+.button {
+  padding: 18px 32px 19px 69px;
+  border: 1px solid #2aacc8;
+  background: linear-gradient(
+    0deg,
+    #2aacc8 0%,
+    #2aacc8 0.1%,
+    #60cede 14.9%,
+    #72dae6 50%,
+    #81e4ed 100%
+  );
+  font-size: 18px;
+  border-radius: 3px;
+  position: relative;
+  margin: 40px 40px 40px;
+}
+
+.sign-download::before {
+  content: url(../assets/img/icons/download.png);
+  position: absolute;
+  left: 23px;
+  top: 13px;
+}
+.bg5 {
+  width: 100%;
+  background-color: #e8ebf1;
+}
+.container-flex {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-us,
+.explore,
+.browse {
+  display: block;
+}
+.about-us {
+  width: 24%;
+}
+.sm-flex {
+  display: flex;
+}
+.explore {
+  width: 7%;
+}
+.adress-contacts {
+  display: block;
 }
