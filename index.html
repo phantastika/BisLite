@@ -63,11 +63,19 @@
           </div>
         </div>
       </div>
+      <div class="slider-nav">
+        <button class="nav-slider"></button>
+        <button class="nav-slider"></button>
+        <button class="nav-slider white"></button>
+        <button class="nav-slider"></button>
+        <button class="nav-slider"></button>
+      </div>
     </div>
+
     <div class="bg1">
       <div class="container2">
         <div class="description1">
-          <h2 class="title2">CLEAN THEME</h2>
+          <h2 class="title2 clean">CLEAN THEME</h2>
           <p class="txt-description1">
             Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit
             dictum molestie. Duis porta gravida augue sed viverra. Quisque at
@@ -76,7 +84,7 @@
           <a class="link" href="#">Read more</a>
         </div>
         <div class="description1">
-          <h2 class="title2">RESPONSIVE DESIGN</h2>
+          <h2 class="title2 respons">RESPONSIVE DESIGN</h2>
           <p class="txt-description1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor.
@@ -85,7 +93,7 @@
           <a class="link" href="#">Read more</a>
         </div>
         <div class="description1">
-          <h2 class="title2">FULLY LAYERD PSD</h2>
+          <h2 class="title2 fully">FULLY LAYERD PSD</h2>
           <p class="txt-description1">
             Phasellus lobortis metus non augue sodales volutpat. Vestibulum sit
             amet nibh eros, hendrerit venenatis est. In vitae nulla nec purus
@@ -94,7 +102,7 @@
           <a class="link" href="#">Read more</a>
         </div>
         <div class="description1">
-          <h2 class="title2">READY FOR CODINGE</h2>
+          <h2 class="title2 ready">READY FOR CODINGE</h2>
           <p class="txt-description1">
             Vivamus convallis feugiat mauris sed posuere. Nam rutrum, quam quis
             euismod commodo, elit est porta quam, non placerat eros neque porta
@@ -106,27 +114,25 @@
     </div>
     <div class="bg2">
       <div class="container3">
-        <img class="arrow" src="./assets/img/icons/arrow.png" alt="arrow" />
+        <div class="arrow-wrap">
+          <img class="arrow" src="./assets/img/icons/arrow.png" alt="arrow" />
+        </div>
         <h3 class="txt-h3">LATEST WORKS</h3>
       </div>
       <div class="container-pics">
         <img src="./assets/img/pics/notebook.png" alt="notebook" />
         <img src="./assets/img/pics/lemon.png" alt="lemon" />
-        <img src="./assets/img/pics/forms.png" alt="forms" />
+        <div class="wrap-pic">
+          <img class="form-pic" src="./assets/img/pics/forms.png" alt="forms" />
+          <div class="blue"></div>
+        </div>
         <img src="./assets/img/pics/target.png" alt="target" />
       </div>
     </div>
     <div class="bg3">
       <div class="container3">
         <div class="block1">
-          <h3 class="testimonials">
-            <img
-              class="icon-clients"
-              src="./assets/img/icons/comment.png"
-              alt="clients"
-            />
-            TESTIMONIALS
-          </h3>
+          <h3 class="testimonials">TESTIMONIALS</h3>
           <p class="txt-testimonial">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut
             nulla sapien, at aliquam erat. Sed vitae massa tellus. Aliquam
@@ -171,21 +177,21 @@
           </div>
         </div>
       </div>
-      <div class="bg4">
-        <div class="container4">
-          <div class="txt-download">
-            <p class="txt-buttom">
-              This is a clean and modern, four column website PSD template. You
-              can code it into a Wordpress website, HTML5 responsive website for
-              your personal or client works. So ahead and download this
-              wonderful PSD template!
-            </p>
-          </div>
-          <div class="download">
-            <button class="button">
-              <span class="sign-download"> DOWNLOAD PSD </span>
-            </button>
-          </div>
+    </div>
+    <div class="bg4">
+      <div class="container4">
+        <div class="txt-download">
+          <p class="txt-buttom">
+            This is a clean and modern, four column website PSD template. You
+            can code it into a Wordpress website, HTML5 responsive website for
+            your personal or client works. So ahead and download this wonderful
+            PSD template!
+          </p>
+        </div>
+        <div class="download">
+          <button class="button">
+            <span class="sign-download"> DOWNLOAD PSD </span>
+          </button>
         </div>
       </div>
     </div>
@@ -193,7 +199,7 @@
       <div class="container-footer">
         <div class="container-flex">
           <div class="about-us">
-            <h4 class="sign footer">ABOUT US</h4>
+            <h4 class="sign-footer">ABOUT US</h4>
             <p class="txt-about">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
               euismod placerat dui et tincidunt. Sed sollicitudin posuere
@@ -203,7 +209,7 @@
             </p>
           </div>
           <div class="explore">
-            <h4 class="sign explore">EXPLORE</h4>
+            <h4 class="sign-explore">EXPLORE</h4>
             <nav class="map">
               <ul class="map-site">
                 <li><a href="#">Home</a></li>
@@ -215,7 +221,7 @@
             </nav>
           </div>
           <div class="browse">
-            <h4 class="sign browse">BROWSE</h4>
+            <h4 class="sign-browse">BROWSE</h4>
             <nav class="links">
               <ul class="browse-links">
                 <li><a href="#">Careers/</a></li>
@@ -229,37 +235,56 @@
           <div class="adress-contacts">
             <div class="contacts">
               <h4 class="phones">CONTACT US</h4>
-              <p class="adress">
-                BisLite Inc. Always Street 265 0X - 125 - Canada
-              </p>
+              <div class="adress">
+                <p>BisLite Inc. Always Street 265 0X - 125 - Canada</p>
+              </div>
             </div>
-            <a class="phone1" href="tel:+7109876543210">987-6543-210</a>
-            <a class="fax" href="tel:+7109876543210">987-6543-210</a>
-            </div>
-            <div class="sm">
-              <h4 class="connect">CONNECT WITH US</h4>
-            </div>
+            <a class="phone1" href="tel:+7109876543210">Phone: 987-6543-210</a>
+            <a class="fax" href="tel:+7109876543210"> Fax: 987-6543-210</a>
+          </div>
+          <div class="sm">
+            <h4 class="connect">CONNECT WITH US</h4>
             <div class="social-pics">
-              <img src="./assets/img/icons/facebook.png" alt="facebook" />
-              <img src="./assets/img/icons/dribbble.png" alt="dribbble" />
-              <img src="./assets/img/icons/pinterest.png" alt="pinterest" />
-              <img src="./assets/img/icons/linkedin.png" alt="linkedin" />
-              <img src="./assets/img/icons/skype.png" alt="skype" />
-              <img src="./assets/img/icons/share.png" alt="share" />
+              <img
+                class="ss"
+                src="./assets/img/icons/facebook.png"
+                alt="facebook"
+              />
+              <img
+                class="ss"
+                src="./assets/img/icons/dribbble.png"
+                alt="dribbble"
+              />
+              <img
+                class="ss"
+                src="./assets/img/icons/pinterest.png"
+                alt="pinterest"
+              />
+              <img
+                class="ss"
+                src="./assets/img/icons/linkedin.png"
+                alt="linkedin"
+              />
+              <img class="ss" src="./assets/img/icons/skype.png" alt="skype" />
+              <img class="ss" src="./assets/img/icons/share.png" alt="share" />
             </div>
           </div>
+
+          <div class="copyright">
+            <p class="txt-copyright">
+              © Copyright 2012 - BisLite Inc. All rights reserved. Some free
+              icons used here are created by Brankic1979.com. Client Logos are
+              copyright and trademark of the respective owners / companies.
+            </p>
+          </div>
+          <div class="logo-footer">
+            <img
+              class="bs-footer"
+              src="./assets/img/pics/BisLite-footer.png"
+              alt="BisLite-small-logo"
+            />
+          </div>
         </div>
-      </div>
-      <div class="copyright">
-        <p class="txt-copyright">
-          © Copyright 2012 - BisLite Inc. All rights reserved. Some free icons
-          used here are created by Brankic1979.com. Client Logos are copyright
-          and trademark of the respective owners / companies.
-        </p>
-        <img
-          src="./assets/img/pics/BisLite-footer.png"
-          alt="BisLite-small-logo"
-        />
       </div>
     </div>
   </body>
